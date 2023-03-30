@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/03/2023 09:42:20 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.modelo.exam.Exam" table="EXAM">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="empresa" type="java.lang.String">
+            <column name="EMPRESA" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="telefono" type="java.lang.String">
+            <column name="TELEFONO" />
+        </property>
+        <property name="poblacion" type="java.lang.String">
+            <column name="POBLACION" />
+        </property>
+        <property name="pais" type="java.lang.String">
+            <column name="PAIS" />
+        </property>
+        <property name="mensaje" type="java.lang.String">
+            <column name="MENSAJE" />
+        </property>
+    </class>
+</hibernate-mapping>
